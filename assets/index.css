@@ -94,11 +94,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('pexels-kishore-illa-50611233-11333963.jpg');
-    background-size: cover;
+  
+    background-size: contain;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(pexels-twotriangles-20117270.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 5%;
+    height: 100vh;
+    
   }
 
   .section-2 h1  {
@@ -107,6 +109,15 @@
   font-style: normal;
   font-size: 50px;
   color: white;
+  }
+
+  .section-2 h3{
+    color: white;
+
+  }
+
+  #agniveer{
+    width: 50%;
   }
 
 
@@ -229,15 +240,16 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 5%;
-    gap: 20px;
+    padding-top: 10%;
+    gap: 50px;
     background-color: #f3f3f3;
     padding-bottom: 10%;
   }
 
   .map_img img{
-    width: 50%;
+    width: 70%;
     border-radius: 15px;
+
   }
 
 
